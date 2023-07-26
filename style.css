@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#maindiv {
+    background-color: #13462d;
+    width: 100%;
+    height: 100%;
+}
+
+#topdiv {
+    width: 100%;
+    height: 18vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)5s;
+}
+
+#topdivright {
+
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)5s;
+}
+
+#button1 {
+    width: 30%;
+    height: 50%;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #000000;
+    color: #fcfcfc;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)5s;
+}
+
+#button1:hover {
+    width: 30%;
+    height: 50%;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #3b8417;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)5s;
+}
+
+#button2 {
+    width: 35%;
+    height: 50%;
+    margin-top: 20px;
+    border-radius: 12px;
+    background-color: #000000;
+    color: #fcfcfc;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)5s;
+}
+
+#button2:hover {
+    width: 35%;
+    height: 50%;
+    margin-top: 20px;
+    border-radius: 12px;
+    background-color: #ffe600;
+    color: #2e380c;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)5s;
+
+}
+
+
+
+#divmid {
+
+
+    width: 100%;
+    height: 170vh;
+    background-image: url(hero-texture.png);
+    transition: cubic-bezier(0.19, 1, 0.22, 1)5s;
+}
+
+#divmid2 {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    width: 100%;
+    height: 20%;
+    margin-left: 30%;
+    margin-right: 20%;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)5s;
+
+}
+
+#midbg {
+
+
+    opacity: 1;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)5s;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    right: 10%;
+
+}
+
+
+#table {
+
+
+    position: absolute;
+    bottom: 5%;
+    top: 45%;
+    left: 20%;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)5s;
+
+}
+
+#leaves {
+
+
+    position: absolute;
+    top: 70%;
+    left: 17%;
+    opacity: 60%;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)5s;
+
+
+}
+
+#standing {
+
+    position: absolute;
+    left: 30%;
+    top: 38%;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)5s;
+}
+
+#input {
+
+    width: 80%;
+    background-color: whitesmoke;
+    height: 12%;
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    border-radius: 20px;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)5s;
+}
+
+.button {
+
+    width: 100%;
+    height: 100%;
+    opacity: 20%;
+    border: none;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)5s;
+}
+
+
+
+#chopbutton {
+
+    width: 90%;
+    height: 100%;
+    border: none;
+    background-color: #101812;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1)10s;
+
+}
+
+#chopbuttonback {
+
+    width: 50%;
+    height: 100%;
+    border: none;
+    position: absolute;
+    bottom: 0%;
+    background-color: #101812;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1)8s;
+
+}
+
+#chopbuttonmain {
+
+    width: 17%;
+    height: 12%;
+    border-end-end-radius: 20px;
+    position: absolute;
+    top: 100%;
+    left: 73%;
+    border: none;
+    background-color: #101812;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1)8s;
+    border-radius: 20px;
+}
+
+#chopbuttonmain:hover #chopbutton {
+
+    z-index: 4;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1)5s;
+    background-color: #db1111;
+    color: rgb(255, 255, 255);
+    transition: cubic-bezier(0.19, 1, 0.22, 1)5s;
+
+}
+
+#chopbuttonmain:hover {
+
+    background-color: #caff0c;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1)5s;
+}
+
+#chopbuttonback:hover {
+
+    background-color: #0ccaffb3;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1)8s;
+}
+
+#chopbutton:hover {
+
+    background-color: #ff0ce3;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1)12s;
+}
+
+
+
+
+#p1 {
+
+    position: absolute;
+    top: 155%;
+    left: 34%;
+    color: whitesmoke;
+
+}
+
+#buttonac {
+
+    position: absolute;
+    top: 165%;
+    left: 37%;
+    background-color: #860707;
+    width: 20%;
+    height: 8%;
+    border-radius: 15px;
+}
+
+#buttonac:hover {
+
+    cursor: pointer;
+    background-color: #180606;
+    color: #e1e1e1;
+}
+
+#divmidwhole {
+
+    background-color: #fcfcfc;
+
+
+}
+
+
+
+
+#divmiddle {
+
+    margin-left: 20%;
+    width: 70%;
+    height: 40%;
+
+    transition: cubic-bezier(0.19, 1, 0.22, 1)10s;
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+
+#divmiddle2 {
+
+    margin-left: 10%;
+    width: 80%;
+    height: 40%;
+
+    transition: cubic-bezier(0.19, 1, 0.22, 1)10s;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#divmidwhole:hover #divmiddle {
+
+    position: relative;
+    bottom: 50px;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1)15s;
+    color: #15542b;
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#divmidwhole:hover #divmiddle2 {
+
+    position: relative;
+    bottom: 50px;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1)10s;
+
+    color: rgb(26, 72, 210);
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+
+
+#divlower {
+
+    width: 100%;
+    position: absolute;
+    top: 350%;
+
+}
